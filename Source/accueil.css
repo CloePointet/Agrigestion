@@ -1,0 +1,60 @@
+/*Page d'accueil, tuiles responsive*/
+
+* {
+  box-sizing: border-box;
+}
+
+.container_grid {
+  display: grid;
+  gap: 20px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.accueil_box {
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  background-color: #D7F2AC;
+}
+
+/*Extra small devices (phones, 600px and down*/
+@media only screen and (max-width: 600px) {
+  .container_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+/*Small devices (portrait tablets and large phones, 600px and up)*/
+@media only screen and (min-width: 600px) {
+  .container_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+/*Medium devices (landscape tablets, 768px and up)*/
+@media only screen and (min-width: 768px) {
+   .container_grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+  }
+}
+
+/*Large devices (laptops/desktops, 992px and up)*/
+@media only screen and (min-width: 992px) {
+  .container_grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+/*Extra large devices (large laptops and desktops, 1200px and up)*/
+@media only screen and (min-width: 992px) {
+  .container_grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+  }
+}

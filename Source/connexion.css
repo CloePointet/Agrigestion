@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.header_box {
+  background-color: blue;
+  height: 100px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.connexion_form_box {
+  background-color: green;
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  height: 50%;
+}

@@ -1,0 +1,15 @@
+/*Page des tâches*/
+
+.tableau_taches {
+  width: 100%; /*taille maximale de son contenant*/
+  border-collapse: collapse; /*bordures de cellules fusionnées*/
+}
+.tableau_taches th, .tableau_taches td {
+  border: 1px solid black; /*bordure d'un pixel solide noir*/
+  padding: 8px; /*espacement interne de 8 pixels*/
+  text-align: left;
+}
+.tableau_taches th {
+  background-color: #D7F2AC; /*couleur de fond pour les entêtes*/
+  font-weight: bold; /*texte en gras*/
+}
